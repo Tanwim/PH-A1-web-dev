@@ -281,3 +281,40 @@ body{
 .featured li::marker{
     color: #93C5FD;
 }
+
+/* creativity */
+.sponsors{
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.sponsor-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+
+    margin: 50px 0;
+}
+
+.sponsor-card{
+
+    background: #FFFFFF;
+
+    border: 1px solid #E5E7EB;
+
+    border-radius: 12px;
+
+    padding: 40px 20px;
+}
+
+.sponsor-card h3{
+
+    color: #0D1B2A;
+
+    font-size: 24px;
+}
+
+.sponsors .btn-primary{
+
+    padding: 12px 30px;
+}
