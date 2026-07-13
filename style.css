@@ -1,3 +1,44 @@
 body{
-    background-color: lightblue;
+    font-family: "Inter", sans-serif;
+}
+/* common button */
+.btn-primary{
+    padding: 12px 24px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #1D4ED8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* nav-bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 80px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 16px;
+}
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
